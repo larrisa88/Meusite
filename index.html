@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso Exclusivo +18</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b0b0b;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #e01111;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .qr img {
+            width: 260px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .btn {
+            display: block;
+            margin: 30px auto 0 auto;
+            background: #e01111;
+            color: #fff;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 10px;
+            width: 260px;
+        }
+
+        .btn:hover {
+            background: #b50d0d;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>ACESSO EXCLUSIVO +18</h1>
+        <h2>Conteúdo privado — fotos e vídeos</h2>
+
+        <p>Para liberar o acesso, faça o pagamento via PIX usando o QR Code abaixo.</p>
+
+        <div class="qr">
+            <img src="https://s11.aconvert.com/convert/p3r68-cdx67/muj34-smxuh.jpg">
+        </div>
+
+        <a class="btn" href="#" id="acesso">Já paguei — Liberar acesso</a>
+    </div>
+
+    <script>
+        document.getElementById("acesso").addEventListener("click", function(event){
+            event.preventDefault();
+            // Link que abre após clicar no botão:
+            window.location.href = "COLOQUE-AQUI-O-LINK-DA-PAGINA-QUE-ABRE";
+        });
+    </script>
+
+</body>
+</html>
